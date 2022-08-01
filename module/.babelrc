@@ -1,0 +1,14 @@
+{
+  "presets": [
+      "react",
+      "env",
+      "stage-0"
+  ],
+  "plugins": [
+    [
+      "transform-react-remove-prop-types", {
+        "ignoreFilenames": ["node_modules"]
+      }
+    ]
+  ]
+}
